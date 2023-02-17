@@ -1,0 +1,16 @@
+Original webpage: https://www.sunnyside.co/
+
+Fonts to use:
+- EB Garamond
+- Poppins
+
+Sections to code:
+- Hero
+- Small changes, big impact
+- Designed to fit your life
+- How it works (first hero)
+- Real people, here to help you succeed
+- Dr. Hrishikesh Belani quote
+- Start building healthier drinking habits today
+
+Image assets prepared in the /images/ directory
