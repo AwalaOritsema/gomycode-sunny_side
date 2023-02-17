@@ -10,7 +10,12 @@ body {
   font-family: "Poppins";
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "EB Garamond";
 }
 
@@ -109,5 +114,57 @@ h1 {
 .hero_article div p {
   font-size: 16px;
   color: #124a2c;
+  text-align: center;
+}
+
+.features {
+  padding: 80px 88px 0;
+}
+
+.features article {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.features article h2 {
+  font-size: 48px;
+  color: #124a2c;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.features article p {
+  font-size: 20px;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.features_grid {
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.features_grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features_grid img {
+  margin: 0 auto;
+}
+
+.features_grid h4 {
+  font-size: 28px;
+  color: #124a2c;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.features_grid p {
+  font-size: 18px;
   text-align: center;
 }
