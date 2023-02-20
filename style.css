@@ -168,3 +168,78 @@ h6 {
   font-size: 18px;
   text-align: center;
 }
+
+.second_section {
+  padding: 80px 144px 0;
+  background-color: #fbf7e9;
+  display: flex;
+  gap: 150px;
+}
+
+.second_section > * {
+  width: 40%;
+}
+
+.second_section_image_container {
+  position: relative;
+}
+
+.second_section_image_container img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.second_section_article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.second_section_article h4 {
+  font-size: 20px;
+  color: #124a2c;
+  line-height: 1.25rem;
+  letter-spacing: 0.17rem;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.second_section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  list-style: none;
+}
+
+.second_section ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0.35;
+  padding-left: 8px;
+}
+
+.second_section ul li:first-child {
+  opacity: 1;
+  border-left: 4px solid #124a2c;
+  /* border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: #124a2c; */
+}
+
+.second_section ul li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.second_section ul li p {
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+.second_section ul li p:first-child {
+  font-size: 22px;
+  font-family: "EB Garamond";
+  font-weight: bold;
+  color: #124a2c;
+}
