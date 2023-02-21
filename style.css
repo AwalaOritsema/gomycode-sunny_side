@@ -117,16 +117,16 @@ h6 {
   text-align: center;
 }
 
-.features {
+.section {
   padding: 80px 88px 0;
 }
 
-.features article {
+.center_article {
   width: 60%;
   margin: 0 auto;
 }
 
-.features article h2 {
+.center_article h2 {
   font-size: 48px;
   color: #124a2c;
   font-weight: bold;
@@ -134,7 +134,7 @@ h6 {
   margin-bottom: 16px;
 }
 
-.features article p {
+.center_article p {
   font-size: 20px;
   line-height: 2rem;
   text-align: center;
@@ -170,7 +170,7 @@ h6 {
 }
 
 .second_section {
-  padding: 80px 144px 0;
+  padding: 80px 144px;
   background-color: #fbf7e9;
   display: flex;
   gap: 150px;
@@ -242,4 +242,31 @@ h6 {
   font-family: "EB Garamond";
   font-weight: bold;
   color: #124a2c;
+}
+
+.how_it_works > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 65px 80px;
+}
+
+.how_it_works > div > * {
+  width: 40%;
+}
+
+.how_it_works > div article img {
+  width: 58px;
+}
+
+.how_it_works > div article h2 {
+  font-size: 36px;
+  line-height: 2rem;
+  color: #124a2c;
+}
+
+.how_it_works > div article p {
+  width: 75%;
+  line-height: 2rem;
+  color: black;
 }
