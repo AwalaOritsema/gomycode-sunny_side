@@ -270,3 +270,39 @@ h6 {
   line-height: 2rem;
   color: black;
 }
+
+.green_section {
+  padding: 80px 173px 0;
+  background-color: #124a2c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.green_section > * {
+  width: 40%;
+}
+
+.green_section img {
+  margin-bottom: -10px;
+}
+
+.green_section article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.green_section article h2 {
+  font-size: 48px;
+  line-height: 3.25rem;
+  color: white;
+}
+
+.green_section article p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+  line-height: 2rem;
+}
