@@ -306,3 +306,77 @@ h6 {
   font-size: 20px;
   line-height: 2rem;
 }
+
+.quote_section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf7e9;
+}
+
+.quote_section h2 {
+  font-size: 38px;
+  line-height: 3.4375rem;
+  color: #333333;
+  text-align: center;
+}
+
+.quote_section p {
+  font-size: 19px;
+  line-height: 3.4375rem;
+}
+
+.yellow_section {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffe635;
+  padding: 50px 163px;
+}
+
+.yellow_section > * {
+  width: 40%;
+}
+
+.yellow_section div {
+  position: absolute;
+  bottom: 0;
+  left: 165px;
+  width: 470px;
+  height: 533px;
+  margin-bottom: -100px;
+}
+
+.yellow_section article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 55px;
+}
+
+.yellow_section article h2 {
+  font-size: 48px;
+  line-height: 3.25rem;
+  color: #124a2c;
+}
+
+.yellow_section div img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  background-color: white;
+}
+
+footer div {
+  width: 10px;
+  height: 200px;
+  background-color: transparent;
+}
